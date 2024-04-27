@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(241, 241, 211);
+    padding: 55px 100px;
+    z-index: 9;
+}
+.main .card{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 9;
+    box-shadow: 1px 3px 15px rgb(243, 243, 90);
+}
+.card .c-top{
+    height: 90px;
+    width: 100%;
+    color: #fff;
+    background:rgb(214, 214, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30%;
+}
+.c-top .elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight:500;
+    font-size: 22px;
+}
+.elem .box{
+    background-color: aliceblue;
+    padding: 7px 15px;
+    color:rgb(112, 112, 3);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.card .c-btm{
+    width: 100%;
+    padding: 20px;
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+   height: 40px;
+   width: 40px;
+   background-color: rgb(246, 246, 163);
+   border-radius: 50%;
+   font-weight: 500;
+   color: #666464;
+   display: flex;
+   z-index: 9;
+   align-items: center;
+   justify-content: center;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
